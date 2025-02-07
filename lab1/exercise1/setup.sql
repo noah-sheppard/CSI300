@@ -1,0 +1,9 @@
+CREATE TABLE newtable(
+
+StudentID INT PRIMARY KEY,
+Name VARCHAR(30),
+Major VARCHAR(15),
+GPA FLOAT,
+Year INT CHECK (Year < 2025)
+
+);
